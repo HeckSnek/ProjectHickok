@@ -1,9 +1,5 @@
 import random
-
-class Card:
-    def __init__(self, value, suit):
-        self.value = value
-        self.suit = suit
+from card import Card
 
 class Deck:
         def __init__(self, count):
